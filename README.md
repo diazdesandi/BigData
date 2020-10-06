@@ -19,6 +19,6 @@
   * Practices and homeworks
 
 ### Tools
-* :wrench: [Apache Spark](https://spark.apache.org/)
-* :wrench: [Scala](https://www.scala-lang.org/)
-* :wrench: [Visual Studio Code](https://code.visualstudio.com/)
+* :books: [Apache Spark](https://spark.apache.org/)
+* :books: [Scala](https://www.scala-lang.org/)
+* :books: [Visual Studio Code](https://code.visualstudio.com/)
