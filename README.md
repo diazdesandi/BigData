@@ -1,4 +1,4 @@
-# Big Data
+# Big Data Class
 
 ### Members
  * :boy: **[René Jiménez](https://github.com/diazdesandi)** - 15211900
