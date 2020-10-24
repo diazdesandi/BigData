@@ -14,5 +14,9 @@ dataset.Scheme
 //First 5 columns
 dataset.head(5)
 
-//Learn about the dataframe
+//Learn about the dataset
 dataset.describe().show()
+
+//New data frame created, HV column added, High and Volume columns relantionship.
+val NewDT = dataset.withColumn("HV Ratio", dataset("High") + df("Volume"))
+NewDT.show()
