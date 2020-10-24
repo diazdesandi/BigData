@@ -1,15 +1,17 @@
-// Start Spark session
+// Import & Start Spark session
 import org.apache.spark.sql.SparkSession
 val spark = SparkSession.builder().getOrCreate()
 
-// Read dataset
+// Here we asign the dataset into a variable to manage
+// and load the csv netflix
 val dataset = spark.read.option("header","true").option("inferSchema","true").csv("Netflix_2011_2016.csv")
 
-// Columns
+// Here we access to Columns and discover names
+// and to know what colimns have the csv
 dataset.columns
 
-//Scheme
-dataset.Scheme
+//Here we print the schema to get the information
+dataset.printSchema()
 
 //First 5 columns
 dataset.head(5)
