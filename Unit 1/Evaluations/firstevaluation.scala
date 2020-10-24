@@ -13,12 +13,13 @@ dataset.columns
 //Here we print the schema to get the information
 dataset.printSchema()
 
-//First 5 columns
+//Print just the First 5 columns
 dataset.head(5)
 
-//Learn about the dataset
+//Learn about the dataset & here we show the database on table with
+// count,meanmin,max and more data
 dataset.describe().show()
 
-//New data frame created, HV column added, High and Volume columns relantionship.
-val NewDT = dataset.withColumn("HV Ratio", dataset("High") + df("Volume"))
+//New data frame created, HV column added, High and Volume columns relantionship
+val NewDT = dataset.withColumn("HV Ratio", dataset("High") + dataset("Volume"))
 NewDT.show()
