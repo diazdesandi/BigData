@@ -3,3 +3,4 @@
 2020.10.27 13:31:11 WARN  no build tool detected in workspace '/home/rene/Desktop/BigData/Unit 1/Practices and homeworks'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.27 13:31:15 INFO  no build target: using presentation compiler with only scala-library
 2020.10.27 13:31:15 WARN  no build target for: /home/rene/Desktop/BigData/Unit 1/Practices and homeworks/Practice 2/P2_File2.scala
+2020.10.27 14:11:52 INFO  shutting down Metals
