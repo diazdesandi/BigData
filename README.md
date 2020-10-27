@@ -1,4 +1,4 @@
-# Big Data Class
+# Big Data Class :computer:
 
 ### Members
 ### :bowtie: **[René Jiménez](https://github.com/diazdesandi)** - 15211900
