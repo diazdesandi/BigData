@@ -3,6 +3,7 @@
       <h1 style="">Pair Coding</h1>
        </p>    
 </div>
+<p style="text-align: justify;">
 El método conocido como pair programming (en español, programación en pareja) se
 utiliza principalmente en el desarrollo ágil de software y, más concretamente, en la
 programación extrema (XP). El pair programming especifica que siempre hay dos
@@ -18,14 +19,14 @@ reglas del pair programming establece que estos dos roles se intercambien con
 regularidad (a intervalos cortos). De esta manera se evita una posible brecha jerárquica:
 se fomenta la igualdad entre ambos trabajadores y se consigue un intercambio fluido de
 roles.
-
+</p>
 <div align="center">
       <p> 
       <img alt="Clase_drawio" src="image.PNG" width=420 height=250>
        </p>    
    </div>
 
-
+<p style="text-align: justify;">
 Además, lo ideal es que el espacio de trabajo también se adapte a los requisitos
 específicos del pair programming. Cada trabajador deberá tener su propio ratón, teclado y
 pantalla, en la que se mostrará siempre la misma información que en la del compañero.
@@ -35,3 +36,4 @@ completamente diferentes. Para que este método funcione, se debe contar con sol
 técnicas especiales. Aun a pesar de la distancia, los compañeros deben tener una línea
 de comunicación directa y deben poder acceder al código y visualizar las modificaciones
 en tiempo real.
+</p>
