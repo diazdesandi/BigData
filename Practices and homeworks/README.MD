@@ -65,5 +65,30 @@ Para llevar a cabo la correlación de Pearson es necesario cumplir lo siguiente:
        </p>    
    </div>
 
-   
+ Interpretación del coeficiente de correlación de Karl Pearson
+El coeficiente de correlación de Pearson tiene el objetivo de indicar cuán asociadas se
+encuentran dos variables entre sí por lo que:
+
+Correlación menor a cero: Si la correlación es menor a cero, significa que es negativa, es
+decir, que las variables se relacionan inversamente.
+Cuando el valor de alguna variable es alto, el valor de la otra variable es bajo. Mientras
+más próximo se encuentre a -1, más clara será la covariación extrema. Si el coeficiente es
+igual a -1, nos referimos a una correlación negativa perfecta.
+
+Correlación mayor a cero: Si la correlación es igual a +1 significa que es positiva perfecta.
+En este caso significa que la correlación es positiva, es decir, que las variables se
+correlacionan directamente.
+Cuando el valor de una variable es alto, el valor de la otra también lo es, sucede lo mismo
+cuando son bajos. Si es cercano a +1, el coeficiente será la covariación.
+Correlación igual a cero: Cuando la correlación es igual a cero significa que no es posible
+determinar algún sentido de covariación. Sin embargo, no significa que no exista una
+relación no lineal entre las variables.
+
+<div align="center">
+      <p> 
+      <img alt="Clase_drawio" src="table.PNG" width=320 height=150>
+       </p>    
+   </div>
+Cuando las variables son independientes significa que estas se encuentran
+correlacionadas, pero esto nos significa que el resultado sea verdadero.
 <p>
