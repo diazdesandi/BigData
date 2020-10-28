@@ -4,9 +4,6 @@
        </p>    
 </div>
 
-___
-
-
 <p style="text-align: justify;">
 El método conocido como pair programming (en español, programación en pareja) se
 utiliza principalmente en el desarrollo ágil de software y, más concretamente, en la
@@ -40,4 +37,33 @@ completamente diferentes. Para que este método funcione, se debe contar con sol
 técnicas especiales. Aun a pesar de la distancia, los compañeros deben tener una línea
 de comunicación directa y deben poder acceder al código y visualizar las modificaciones
 en tiempo real.
+<p>
+
+<div align="center">
+      <p> <h1 style="">Correlacion de Parson</h1> </p>    
+</div>
+
+<p style="text-align: justify;">
+El coeficiente de correlación de Pearson es una prueba que mide la relación estadística
+entre dos variables continuas. Si la asociación entre los elementos no es lineal, entonces
+el coeficiente no se encuentra representado adecuadamente.
+El coeficiente de correlación puede tomar un rango de valores de +1 a -1. Un valor de 0
+indica que no hay asociación entre las dos variables. Un valor mayor que 0 indica una
+asociación positiva. Es decir, a medida que aumenta el valor de una variable, también lo
+hace el valor de la otra. Un valor menor que 0 indica una asociación negativa; es decir, a
+medida que aumenta el valor de una variable, el valor de la otra disminuye.
+Para llevar a cabo la correlación de Pearson es necesario cumplir lo siguiente:
+
+* La escala de medida debe ser una escala de intervalo o relación.
+* Las variables deben estar distribuidas de forma aproximada.
+* La asociación debe ser lineal.
+* No debe haber valores atípicos en los datos.
+
+<div align="center">
+      <p> 
+      <img alt="Clase_drawio" src="correlacion.PNG" width=420 height=250>
+       </p>    
+   </div>
+
+   
 <p>
