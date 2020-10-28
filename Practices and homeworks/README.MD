@@ -92,3 +92,28 @@ relación no lineal entre las variables.
 Cuando las variables son independientes significa que estas se encuentran
 correlacionadas, pero esto nos significa que el resultado sea verdadero.
 <p>
+      
+      
+      
+# Pair Coding
+Pair coding
+Como su nombre lo indica, la programación por pares es donde dos desarrolladores trabajan usando solo una computadora. Un programador actúa como el conductor y se encarga de codificar, mientras que el otro fungirá como observador el cual verificará el código que se está escribiendo, lo revisará y corregirá la ortografía, mientras que también decidirá a dónde ir a continuación.
+
+Ventajas
+Dos cabezas son mejores que una.
+Dos personas pueden resolver los problemas que surgen de forma más rápida.
+Eficiencia. 
+Se introducen menos errores en el código porque se detectan muchos errores a medida que se escriben. Este nivel de revisiones continuas de código da lugar a menos errores en su código.
+Una forma eficaz de compartir conocimientos. 
+Permite a los programadores obtener instrucciones instantáneas así como aprender cosas de su pareja. 
+
+Desafíos
+Compromiso
+Los programadores deben de estar igualmente comprometidos y ser participativos durante la duración de la tarea.
+Comunicación. 
+Los programadores deben detallar verbalmente lo que está haciendo.
+Personalidades
+Al ser una programación muy social e interactiva, se debe detectar parejas que puedan tener problemas entre sí.
+
+# Correlacion de Pearson
+Los coeficientes de correlación se utilizan en estadísticas para medir qué tan fuerte es una relación entre dos variables. Hay varios tipos de coeficientes de correlación, pero el más popular es el de Pearson. La correlación de Pearson es un coeficiente de correlación que se usa comúnmente en la regresión lineal. El coeficiente de correlación de Pearson, puede tomar un rango de valores de +1 a -1. Un valor de 0 indica que no existe asociación entre las dos variables. Un valor mayor que 0 indica una asociación positiva; es decir, a medida que aumenta el valor de una variable, también aumenta el valor de la otra variable. Un valor menor que 0 indica una asociación negativa; es decir, a medida que aumenta el valor de una variable, el valor de la otra variable disminuye. Esto se muestra en el diagrama siguiente:
