@@ -3,6 +3,10 @@
       <h1 style="">Pair Coding</h1>
        </p>    
 </div>
+
+___
+
+
 <p style="text-align: justify;">
 El método conocido como pair programming (en español, programación en pareja) se
 utiliza principalmente en el desarrollo ágil de software y, más concretamente, en la
@@ -36,4 +40,4 @@ completamente diferentes. Para que este método funcione, se debe contar con sol
 técnicas especiales. Aun a pesar de la distancia, los compañeros deben tener una línea
 de comunicación directa y deben poder acceder al código y visualizar las modificaciones
 en tiempo real.
-</p>
+<p>
