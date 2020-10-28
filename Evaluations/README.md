@@ -1,54 +1,64 @@
 # 1st Evaluation
+Import & Start Spark session
 ```scala
-// Import & Start Spark session
 import org.apache.spark.sql.SparkSession;
 val spark = SparkSession.builder().getOrCreate();
-
-// Here we asign the dataset into a variable to manage
-// and load the csv netflix
+```
+Datased assigned to a variable, to manage and load the file Netlfix_2011_2016.csv
+```scala
 val dataset = spark.read.option("header","true").option("inferSchema","true").csv("Netflix_2011_2016.csv");
-
-// Here we access to Columns and discover names
-// and to know what colimns have the csv
+```
+We access the columns and discover their names
+```scala
 dataset.columns;
-
-// Here we print the schema to get the information
+```
+We print the scheme to have more information.
+```scala
 dataset.printSchema();
-
-//Print just the First 5 columns
+```
+We print the first 5 columns.
+```scala
 dataset.head(5);
-
-// Learn about the dataset & here we show the database on table with
-// count,meanmin,max and more data
+```
+Describe function used to know more about the dataset.
+```scala
 dataset.describe().show();
-
-// New data frame created, HV column added, High and Volume columns relantionship
+```
+A new data frame is created as well as a new column called "HV", which represents the relationship between High and Volume columns.
+```scala
 val secondDataset = dataset.withColumn("Hv Ratio", dataset("High") + dataset("Volume"));
-
-// On this line we show the new database
+```
+In this line we know the new data set
+```scala
 secondDataset.show();
-
-// Here we show the top column on "Close"
+```
+In this line we give the instruction to know the highest vale of Close column.
+```scala
 secondDataset.select(mean("Close")).show();
+```
+Column Close means the average close to the dataset, we select from the second dataset and it may some take time to compare between data frames or data.
 
-// That means the average close to the dataset, we selected from the second dataset
-// and sometimes they can have time to can comparate between data frames or data
-
-//Here we show the minimun to the column volume and the most hight on the same table
+We show the minimum and maximum value of the Volume column
+```scala
 secondDataset.select(min("Volume"),max("Volume")).show();
-
-// Here we find the inferior number on the Second Dataset
+```
+This instruction show lower values than 600 within the Close column.
+```scala
 val inferior = secondDataset.filter($"Close" < 600).count();
-
-// here we now the porcentaje on the time on hight
+```
+In this instruction we seek to know what percentage of time the High column was greater than 500.
+```scala
 val time = secondDataset.filter($"High" > 500).count(); val porcentajeTime= time * .100;
-
-// Here we find the pearson correelation on the secon dataset
+```
+Here we look for the Pearson Correlation between the High and Volume columns.
+```scala
 secondDataset.select(corr("High", "Volume").alias("Correlacion de Pearson")).show();
-
-// We can show the most high by year with the next line to find out
+```
+We look for the maximum value of the High column per year, from 2011 to 2016.
+```scala
 secondDataset.groupBy(year(secondDataset("Date")).alias("Year")).max("High").sort(asc("Year")).show();
-
-// We can show the average by month of the year using and agrouping before to can get the data organizated on a table
+```
+We show the monthly average of the Close column using groupBy function before to get the data organized in a table
+```scala
 secondDataset.groupBy(month(secondDataset("Date")).alias("Month")).avg("Close").sort(asc("Month")).show();
 ```
