@@ -21,7 +21,7 @@ roles.
 
 <div align="center">
       <p> 
-      <img alt="Clase_drawio" src="image.png" width=420 height=250>
+      <img alt="Clase_drawio" src="image.PNG" width=420 height=250>
        </p>    
    </div>
 
