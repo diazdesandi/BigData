@@ -48,15 +48,18 @@ def afortunado(list:List[Int]): Int={
     return res
 }
 
+// We create value af and assign a list, after that we print it.
 val af= List(1,7,7)
 println(afortunado(af))
 
+// We define another function, called balance
 def balance(list:List[Int]): Boolean={
     var primera = 0
     var segunda = 0
 
     segunda = list.sum
 
+    // For loop initialized
     for(i <- Range(0,list.length)){
         primera = primera + list(i)
         segunda = segunda - list(i)
@@ -68,22 +71,27 @@ def balance(list:List[Int]): Boolean={
     return false 
 }
 
+// Values bl,bl2,bl3 created and with a list assigned to them.
 val bl = List(3,2,1)
 val bl2 = List(2,3,3,2)
 val bl3 = List(10,30,90)
 
+// We look for the balance of each value
 balance(bl)
 balance(bl2)
 balance(bl3)
 
+// We define palindromo function, so we can know if that word fulfills that requerimient.
 def palindromo(palabra:String):Boolean ={
     return (palabra == palabra.reverse)
 }
 
+// Create values palabra,palabra,2 palabra 3 and we assign strings.
 val palabra = "OSO"
 val palabra2 = "ANNA"
 val palabra3 = "JUAN"
 
+// We use the funciton palindromo and we evaluate the values palabra,palabra2 and palabra3.
 println(palindromo(palabra))
 println(palindromo(palabra2))
 println(palindromo(palabra3))

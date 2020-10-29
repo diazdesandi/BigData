@@ -61,3 +61,75 @@ WARNING: Unmatched cancel notification for request id 165
 2020.10.28 10:31:06 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 3\Practice_3.scala
 2020.10.28 10:32:13 WARN  no build target for: C:\Users\rjds_\Downloads\Practice_5\Practice_5.scala
 2020.10.28 10:33:51 INFO  shutting down Metals
+2020.10.28 20:10:22 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\rjds_\Documents\GitHub\BigData' for client vscode.
+2020.10.28 20:10:23 INFO  time: initialize in 0.47s
+2020.10.28 20:10:23 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:10:26 INFO  no build target: using presentation compiler with only scala-library
+2020.10.28 20:10:26 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 5\Practice_5.scala
+2020.10.28 20:10:26 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File1.scala
+2020.10.28 20:19:22 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File2.scala
+2020.10.28 20:19:54 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File3.scala
+2020.10.28 20:35:43 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File4.scala
+2020.10.28 20:36:22 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File5.scala
+2020.10.28 20:36:31 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File4.scala
+2020.10.28 20:36:32 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File3.scala
+2020.10.28 20:37:43 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 2\P2_File1.scala
+2020.10.28 20:38:02 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 2\P2_File1.scala
+2020.10.28 20:40:35 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 2\P2_File2.scala
+2020.10.28 20:43:44 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 2\P2_File3.scala
+2020.10.28 20:43:48 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 2\P2_File2.scala
+2020.10.28 20:51:21 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 2\P2_File3.scala
+2020.10.28 20:51:31 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 3\Practice_3.scala
+2020.10.28 20:51:46 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica1_Fibonacci.scala
+2020.10.28 20:51:46 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica2_Fibonacci.scala
+2020.10.28 20:51:47 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica1_Fibonacci.scala
+2020.10.28 20:51:47 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica2_Fibonacci.scala
+2020.10.28 20:51:47 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica3_Fibonacci.scala
+2020.10.28 20:51:48 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica5_Fibonacci.scala
+2020.10.28 20:51:51 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 5\Practice_5.scala
+2020.10.28 20:52:03 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica1_Fibonacci.scala
+2020.10.28 20:52:52 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica2_Fibonacci.scala
+2020.10.28 20:53:10 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica3_Fibonacci.scala
+2020.10.28 20:53:38 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica4_Fibonacci.scala
+2020.10.28 20:54:17 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 4\Practica5_Fibonacci.scala
+2020.10.28 20:54:40 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 5\Practice_5.scala
+2020.10.28 21:23:40 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 3\Practice_3.scala
+2020.10.28 21:25:08 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 5\Practice_5.scala
+2020.10.28 21:25:12 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 1\File5.scala
+2020.10.28 21:25:28 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Evaluations\firstevaluation.scala
+oct 28, 2020 9:25:44 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.28 21:26:30 INFO  shutting down Metals
+2020.10.28 21:32:55 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\rjds_\Documents\GitHub\BigData' for client vscode.
+2020.10.28 21:32:56 INFO  time: initialize in 0.3s
+2020.10.28 21:32:56 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:32:58 INFO  no build target: using presentation compiler with only scala-library
+2020.10.28 21:32:58 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Evaluations\firstevaluation.scala
+oct 28, 2020 9:33:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.28 22:50:56 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 22:50:56 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Evaluations\firstevaluation.scala
+oct 28, 2020 10:50:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.10.28 22:51:00 INFO  shutting down Metals
+2020.10.28 23:30:40 INFO  started: Metals version 0.9.4 in workspace 'C:\Users\rjds_\Documents\GitHub\BigData' for client vscode.
+2020.10.28 23:30:40 INFO  time: initialize in 0.29s
+2020.10.28 23:30:41 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:30:50 INFO  no build target: using presentation compiler with only scala-library
+2020.10.28 23:30:50 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 3\Practice_3.scala
+oct 28, 2020 11:30:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+oct 28, 2020 11:30:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.10.28 23:31:42 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:34:33 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:34:33 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:34:33 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:34:33 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:35:31 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:35:31 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:35:31 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:35:47 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:35:59 WARN  no build tool detected in workspace 'C:\Users\rjds_\Documents\GitHub\BigData'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 23:38:29 WARN  no build target for: C:\Users\rjds_\Documents\GitHub\BigData\Practices and homeworks\Practice 3\Practice_3.scala
+2020.10.28 23:38:31 INFO  shutting down Metals
