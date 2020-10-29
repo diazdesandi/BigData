@@ -1,4 +1,7 @@
-// On this practice we use a Google Play Dataset
+# Practice 5
+
+On this practice we use a Google Play Dataset
+```scala
 // In the first step we import the dependencies neccesary
 import org.apache.spark.sql.SparkSession;
 
@@ -31,4 +34,4 @@ dataset("App");
 
 // Now we shoe 10 on head
 dataset.head(10);
-
+```
