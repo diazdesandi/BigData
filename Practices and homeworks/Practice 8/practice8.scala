@@ -2,7 +2,6 @@
 
 // Import libraries
 import org.apache.spark.ml.classification.LinearSVC
-
 import org.apache.spark.sql.SparkSession
 
 // Load training data
