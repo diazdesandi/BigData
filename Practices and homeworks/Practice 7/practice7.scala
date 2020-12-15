@@ -1,3 +1,4 @@
+// Import Perceptron Classifier, Multiclass Evaluator and Spark Session.
 import org.apache.spark.ml.classification.MultilayerPerceptronClassifier
 import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.sql.SparkSession

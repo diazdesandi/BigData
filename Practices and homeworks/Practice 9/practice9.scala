@@ -11,6 +11,7 @@ val Array(train, test) = inputData.randomSplit(Array(0.8, 0.2))
 // Use classifier, in this case we use Logistic Regression.
 val classifier = new LogisticRegression().setMaxIter(10).setTol(1E-6).setFitIntercept(true)
 
+// New One vs rest classifier
 val ovr = new OneVsRest().setClassifier(classifier)
 
 val ovrModel = ovr.fit(train)
