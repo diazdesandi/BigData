@@ -1,6 +1,6 @@
 // Import Apache Spark session
 import org.apache.spark.sql.SparkSession
-// We most import this to use the indexed and assembler
+// We import this libraries to use the indexed and assembler
 import org.apache.spark.ml.feature.StringIndexer
 import org.apache.spark.ml.feature.VectorAssembler
 val spark = SparkSession.builder().getOrCreate()
@@ -43,7 +43,7 @@ val train = split(0);
 val test = split(1);
 // We input some random numbers
 val layers = Array[Int](4, 5, 4, 3);
-// Here we create the object to train the information by data
+// Here we create the object to train the model
 val trainer = new MultilayerPerceptronClassifier().setLayers(layers).setBlockSize(128).setSeed(1234L).setMaxIter(100);
 // Now we can create the model trained
 val model = trainer.fit(train);
