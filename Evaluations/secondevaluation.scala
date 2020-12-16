@@ -32,7 +32,6 @@ val index = tagIndexer.transform(df).drop("species").withColumnRenamed("indexedL
 index.describe().show()
 
 // 7. Classification model
-
 // First we need to import the vectorassembler to able join or assemble the data
 val assem = new VectorAssembler().setInputCols(Array("sepal_length","sepal_width","petal_length","petal_width")).setOutputCol("features");
 // After this we have to index it
