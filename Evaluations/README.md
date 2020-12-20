@@ -33,3 +33,22 @@ import org.apache.spark.ml.linalg.Vectors
 ```scala
 val assembler = new VectorAssembler().setInputCols(Array("Fresh","Milk","Grocery","Frozen","Detergents_Paper","Delicassen")).setOutputCol("features")
 ```
+9. Using assembler object to transform
+```scala
+val  features = assembler.transform(feature_data)
+features.show
+```
+10. Create a model with K=3
+```scala
+val kmeans = new KMeans().setK(3).setSeed(1L)
+val model = kmeans.fit(features)
+```
+
+11. Evaluation with the model wssse.
+```scala
+val WSSSE = model.computeCost(features)
+println(s"Within Set Sum of Squared Errors = $WSSSE")
+
+println("Centros Cluster: ")
+model.clusterCenters.foreach(println)
+```

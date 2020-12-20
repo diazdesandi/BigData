@@ -25,15 +25,14 @@ import org.apache.spark.ml.linalg.Vectors
 // 8. New Vector Assembler created for feature columns without labels.
 val assembler = new VectorAssembler().setInputCols(Array("Fresh","Milk","Grocery","Frozen","Detergents_Paper","Delicassen")).setOutputCol("features")
 
-//9. Utilice el objeto assembler para transformar feature_data
+//9. Using assembler object to transform
 val  features = assembler.transform(feature_data)
 features.show
-//10. Crear un modelo Kmeans con K=3
+//10. Create a model with K=3
 val kmeans = new KMeans().setK(3).setSeed(1L)
 val model = kmeans.fit(features)
 
-//11. Evalúe los grupos utilizando Within Set Sum of Squared Errors WSSSE e imprima los centroides.
-// Trains a k-means model.
+//11. Evaluation with the model wssse.
 val WSSSE = model.computeCost(features)
 println(s"Within Set Sum of Squared Errors = $WSSSE")
 
