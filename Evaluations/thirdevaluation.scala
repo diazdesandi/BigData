@@ -12,7 +12,7 @@ val spark = SparkSession.builder().getOrCreate()
 import org.apache.spark.ml.clustering.KMeans
 
 // 5. Load Wholesale Customers data
-val dataset = spark.read.option("header","true").option("inferSchema","true").csv("/home/rene/Documents/GitHub/BigData/Evaluations/Wholesale customers data.csv")
+val dataset = spark.read.option("header","true").option("inferSchema","true").csv("Wholesale customers data.csv")
 // val dataset = spark.read.option("header","true").option("inferSchema","true").csv("Wholesale customers data.csv")
 
 // 6. Select columns: Fresh, Milk, Grocery, Frozen, Detergents_Paper, Delicassen and name it feature_data
@@ -24,3 +24,18 @@ import org.apache.spark.ml.linalg.Vectors
 
 // 8. New Vector Assembler created for feature columns without labels.
 val assembler = new VectorAssembler().setInputCols(Array("Fresh","Milk","Grocery","Frozen","Detergents_Paper","Delicassen")).setOutputCol("features")
+
+//9. Utilice el objeto assembler para transformar feature_data
+val  features = assembler.transform(feature_data)
+features.show
+//10. Crear un modelo Kmeans con K=3
+val kmeans = new KMeans().setK(3).setSeed(1L)
+val model = kmeans.fit(features)
+
+//11. Evalúe los grupos utilizando Within Set Sum of Squared Errors WSSSE e imprima los centroides.
+// Trains a k-means model.
+val WSSSE = model.computeCost(features)
+println(s"Within Set Sum of Squared Errors = $WSSSE")
+
+println("Centros Cluster: ")
+model.clusterCenters.foreach(println)
