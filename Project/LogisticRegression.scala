@@ -7,6 +7,14 @@ import org.apache.log4j._
 Logger.getLogger("org").setLevel(Level.ERROR)
 
 // Load Machine Learning Libraries
-import org.apache.spark.ml.feature.VectorAssembler
-import org.apache.spark.ml.feature.StringIndexer
 import org.apache.spark.ml.Pipeline
+import org.apache.spark.ml.linalg.Vectors
+import org.apache.spark.ml.feature.VectorAssembler
+import org.apache.spark.mllib.evaluation.MulticlassMetrics
+import org.apache.spark.ml.classification.LogisticRegression
+
+// Load bank-full.csv.
+val data = spark.read.option("header","true").option("inferSchema","true").option("delimiter",";").format("csv").load("bank-full.csv")
+
+// Columns stored in a new vector.
+val assembler = new VectorAssembler().setInputCols(Array("balance","day","duration","pdays","previous")).setOutputCol("features")
