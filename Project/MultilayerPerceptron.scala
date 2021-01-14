@@ -16,5 +16,20 @@ import org.apache.spark.ml.feature.{IndexToString,StringIndexer,VectorAssembler,
 // Load bank-full.csv.
 val data = spark.read.option("header","true").option("inferSchema","true").option("delimiter",";").format("csv").load("bank-full.csv")
 
+// LabelIndexer created for using column y as index.
+val labelIndexer = new StringIndexer().setInputCol("y").setOutputCol("label").fit(data)
+
 // Columns stored in a new vector.
 val assembler = new VectorAssembler().setInputCols(Array("balance","day","duration","pdays","previous")).setOutputCol("features")
+val features = assembler.transform(data)
+
+// Training and test arrays created using seed 1234L
+val splits = data.randomSplit(Array(0.7, 0.3), seed = 1234L);
+val train = splits(0);
+val test = splits(1);
+
+// Array for each algorithm level.
+val capas = Array[Int](7, 5, 5, 2)
+
+// Multilayer Perceptron classifier created
+val mlp = new MultilayerPerceptronClassifier().setLayers(capas).setLabelCol("label").setFeaturesCol("features").setPredictionCol("prediction").setBlockSize(128).setSeed(1234L).setMaxIter(100)
