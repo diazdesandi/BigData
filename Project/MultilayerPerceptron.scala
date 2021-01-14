@@ -33,3 +33,19 @@ val capas = Array[Int](7, 5, 5, 2)
 
 // Multilayer Perceptron classifier created
 val mlp = new MultilayerPerceptronClassifier().setLayers(capas).setLabelCol("label").setFeaturesCol("features").setPredictionCol("prediction").setBlockSize(128).setSeed(1234L).setMaxIter(100)
+
+// Pipeline calling the classifier.
+val pipeline = new Pipeline().setStages(Array(labelIndexer,assembler,mlp))
+
+// Training model created
+val model = pipeline.fit(trainingData)
+
+// Data transformation in the model with the test data
+val predictions = model.transform(testdata)
+
+// Perceptron model generated
+val predictionAndLabels = predictions.select("prediction", "label")
+val evaluator = new MulticlassClassificationEvaluator().setMetricName("accuracy")
+
+// Accuracy
+println("Test set accuracy = " + evaluator.evaluate(predictionAndLabels))
