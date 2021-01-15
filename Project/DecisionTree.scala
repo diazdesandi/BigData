@@ -1,5 +1,7 @@
-// Import & Start Spark session
+// Import apache spark
 import org.apache.spark.sql.SparkSession;
+
+// Creating a variable to use spark on code.
 val spark = SparkSession.builder().getOrCreate();
 
 // Code to minimize errors.
@@ -30,7 +32,7 @@ val featureIndexer = new VectorIndexer().setInputCol("features").setOutputCol("i
 // Training and test arrays created.
 val Array(traindata, testdata) = features.randomSplit(Array(0.7, 0.3))
 
-// Decision Tree object created
+// To create a desecion tree we use the next line
 val ds = new DecisionTreeClassifier().setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures")
 
 // New branch created for predictions
@@ -52,7 +54,9 @@ predictions.select("predictedLabel", "y", "features").show(5)
 val treeModel = model.stages(2).asInstanceOf[DecisionTreeClassificationModel]
 println(s"tree model:\n ${treeModel.toDebugString}")
 
-// Accuracy calculated.
+// Accuracy calculated and geted the result.
 val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabel").setPredictionCol("prediction").setMetricName("accuracy")
 val accuracy = evaluator.evaluate(predictions)
+
+// Here we print the precision
 println(s"Precision = ${(accuracy)}")
