@@ -32,7 +32,7 @@ val featureIndexer = new VectorIndexer().setInputCol("features").setOutputCol("i
 // Training and test arrays created.
 val Array(traindata, testdata) = features.randomSplit(Array(0.7, 0.3))
 
-// To create a desecion tree we use the next line
+// To create a decision tree we use the next line
 val ds = new DecisionTreeClassifier().setLabelCol("indexedLabel").setFeaturesCol("indexedFeatures")
 
 // New branch created for predictions
@@ -59,4 +59,9 @@ val evaluator = new MulticlassClassificationEvaluator().setLabelCol("indexedLabe
 val accuracy = evaluator.evaluate(predictions)
 
 // Here we print the precision
-println(s"Precision = ${(accuracy)}")
+println(s"Accuracy = ${(accuracy)}")
+
+// Printing time and duration of the algorithm
+val time = System.nanoTime
+val duration = (System.nanoTime - time) / 1e9d
+println("Tiempo de ejecución: " + duration)
