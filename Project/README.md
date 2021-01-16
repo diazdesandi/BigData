@@ -110,14 +110,17 @@ By analyzing the results of the execution times of each algorithm we can
 note that the first iteration of each classifier is usually the one that takes the longest
 required and that no "peaks" of time are observed in each of the following
 iterations.
+![](https://github.com/diazdesandi/BigData/blob/Unit-4/Project/tiempo.png)
+
 ## Accuracy
 When analyzing the results of the accuracy of each algorithm we can notice that each
 classifier maintains constant accuracy during each iteration, varying in
 ± 1%.
+![](https://github.com/diazdesandi/BigData/blob/Unit-4/Project/Precision.png)
 ## Final results
 As a final result we can observe that the decision tree is one
 of the best raters as it gets 11.9 seconds and 89%.
-
+![](https://github.com/diazdesandi/BigData/blob/Unit-4/Project/resultados.png)
 # Conclusions
 There are a lot of algorithms in computing, especially in the machine
 learning, but the possibility of trying different algorithms allows us to realize
