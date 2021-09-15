@@ -1,10 +1,16 @@
-# Big Data Class :computer:
+# Big Data :computer:
 
 ### Members
-### :bowtie: **[René Jiménez](https://github.com/diazdesandi)** - 15211900
-### :bowtie: **[Cruz Ibarra](https://github.com/cmir22)** - 16210973
+###  **[René Jiménez](https://github.com/diazdesandi)** - 15211900
+###  **[Cruz Ibarra](https://github.com/cmir22)** - 16210973
 
-### :closed_book: [Unit 2](https://github.com/diazdesandi/BigData/tree/development/Unit%202)
+### Table of contents
+##Unit-1
+### [Unit 1](https://github.com/diazdesandi/BigData/tree/development/Unit%201) :closed_book:
+  * [Evaluations](https://github.com/diazdesandi/BigData/tree/Unit-1/Evaluations)
+  * [Practices and homeworks](https://github.com/diazdesandi/BigData/tree/Unit-1/Practices%20and%20homeworks)
+  
+##Unit-2
   * Evaluations
   * Practices and homeworks
 
